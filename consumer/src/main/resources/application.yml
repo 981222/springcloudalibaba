@@ -1,0 +1,5 @@
+server:
+  port: 8010
+provider:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.huang.configuration.NacosWeightedRule
